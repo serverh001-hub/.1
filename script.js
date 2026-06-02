@@ -3,7 +3,7 @@
    ════════════════════════════════════════ */
 const APP_CONFIG = {
   USERNAME: "Yout45", 
-  TOKEN:    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODAwODA3MTEsImlhdCI6MTc4MDA3MzUxMSwicm9sZSI6InVzZXIiLCJ1c3IiOiJZb3V0NDUifQ.5y0LM9R4w2tH_wtRToY-oVxNr0oT7ry4K1QmOjlTOtU",
+  TOKEN:    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJoZWxtZXRfMDEiLCJpYXQiOjE3NzkwMDE3MDYsImp0aSI6IjZhMDk2OTY5YTU4ZTM2YjIzZjBjNWVlYiIsInN2ciI6ImFwLXNvdXRoZWFzdC5hd3MudGhpbmdlci5pbyIsInVzciI6IllvdXQ0NSJ9.BvUtgmKuGJ0S1m2TBs5pTIWn_TPbYh8ZIti2-uWI_YQ",
   SERVER:   "backend.thinger.io",
   DEFAULT_DEVICE: "helmet_01" 
 };
