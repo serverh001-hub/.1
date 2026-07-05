@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ศูนย์ควบคุมหัวหน้างาน — Supervisor Command</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="tape-strip" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <div class="nav-l">
+      <div class="nav-icon">👔</div>
+      <div>
+        <div class="nav-title">ศูนย์ควบคุมหัวหน้างาน</div>
+        <div class="nav-sub">Supervisor Command Center</div>
+      </div>
+    </div>
+    <div class="status-pill" id="statusPill">
+      <div class="sdot" id="sysDot"></div>
+      <span id="sysTxt">กำลังเชื่อมต่อ...</span>
+    </div>
+  </nav>
+
+  <main class="boss-body">
+
+    <section class="summary-row">
+      <div class="sum-card">
+        <div class="sum-icon">🟢</div>
+        <div class="sum-text">
+          <div class="sum-label">พนักงานออนไลน์</div>
+          <div class="sum-val g" id="sumOnline">0</div>
+        </div>
+      </div>
+      <div class="sum-card is-sos">
+        <div class="sum-icon">🚨</div>
+        <div class="sum-text">
+          <div class="sum-label">SOS ฉุกเฉิน</div>
+          <div class="sum-val r" id="sumSOS">0</div>
+        </div>
+      </div>
+      <div class="sum-card is-obs">
+        <div class="sum-icon">⚠️</div>
+        <div class="sum-text">
+          <div class="sum-label">เตือนสิ่งกีดขวาง</div>
+          <div class="sum-val o" id="sumObs">0</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-head">
+      <h2>สถานะพนักงานรายบุคคล</h2>
+      <span class="grid-head-sub">อัปเดตทุก 2 วินาที</span>
+    </section>
+
+    <section class="helmets-grid" id="helmetsGrid">
+      <div class="empty-state">
+        <div class="empty-icon">⛑️</div>
+        <div class="empty-title">รอการเชื่อมต่อจากอุปกรณ์...</div>
+        <div class="empty-sub">หมวกที่ออนไลน์จะปรากฏที่นี่โดยอัตโนมัติ</div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
